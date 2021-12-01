@@ -1,0 +1,38 @@
+@font-face {font-family: "LuloCleanOne-Bold"; src: url("./fonts/FontsFree-Net-Lulo-Clean-W01-One-Bold.ttf") format("truetype"); } 
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.save {
+  width: 60px;
+  height: 25px;
+  border: 2px solid #59514D;
+  background-color: rgba(255, 255, 255, 0.66);
+  color: #59514D;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "LuloCleanOne-Bold";
+  font-size: 9px;
+}
+
+.save:hover {
+  background-color: #2A2A2A;
+  color: #20CE88;
+  border: 2px solid #2A2A2A;
+}
+
+/* .delayed {
+  transition: all 0.2s;
+  transition-delay: 300ms;
+}
+
+.delayed:active {
+  transition: none;
+} */
